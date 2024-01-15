@@ -1,0 +1,1 @@
+This is a redesign of the Iranian Astronomical Society website. In this file, I used some sliders and two attractive JavaScript plugins. This site is fully responsive and only the bootstrap grading system is used and the rest of the styles are fully customized.
