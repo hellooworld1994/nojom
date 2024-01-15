@@ -1,0 +1,120 @@
+@import url('reset.css');
+@font-face {
+    font-family: 'iransans';
+    src: url('../font/Sans\ a4fran3.woff')format('woff'),
+    url('../font/Sans\ a4fran3.eot')format('eot'),
+    url('../font/Sans\ a4fran3.ttf')format('ttf'),
+    url('../font/IRANSans.woff2')format('woff2');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../pic/back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#d1{
+    width:400px;
+    background-color:rgba(0, 0, 0,.6);
+    margin: 50px auto;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+#pd1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'iransans';
+    color:gray;
+    line-height: 30px;
+    color:#8b7959 ;
+}
+#txt{
+    direction: rtl;
+}
+#d1 form .form-item{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    align-items: center;
+    color: darkgray;
+}
+#d1 form .form-item svg{
+    font-size:17px;
+   padding-right: 20px;
+    color:darkgray;
+}
+#d1 form .form-item input{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 5px;
+    color: white;
+    letter-spacing: .3px;
+    font-size: 14px;
+    font-family: 'iransans';
+    border: none;
+    border-bottom: 1px solid rgb(121, 121, 121);
+    background-color:transparent;
+    outline: none;
+    transition: all .7s ease-in;
+}
+#d1 form .form-item input:focus{
+    border-bottom: 1px solid darkgray;
+}
+::placeholder{
+    color: darkgray;
+    font-size: 12px;
+    font-family: 'iransans';
+    text-align: right;
+}
+.enter{
+    width:80%;
+    height: 40px;
+    background-color:gray;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'iransans';
+    color:#8b7959;
+    background-color: #070617;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.enter:hover{
+    opacity: .9;
+}
+#agree{
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'iransans';
+    color: gray;
+    padding: 20px 0;
+}
+#agree a{
+    color:darkgray;
+}
+#agree a:hover{
+    color: #8b7959;
+}
+@media screen and (max-width:400px){
+    #d1{
+        width: 350px;
+    }
+    input{
+        width: 300px;
+    }
+    .enter{
+        width: 300px;
+    }
+}

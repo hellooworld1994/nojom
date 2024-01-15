@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'iransans';
+    src: url('../font/Sans\ a4fran3.woff')format('woff'),
+    url('../font/Sans\ a4fran3.eot')format('eot'),
+    url('../font/Sans\ a4fran3.ttf')format('ttf'),
+    url('../font/IRANSans.woff2')format('woff2');
+}
+
+
+#footer{
+    width: 100%;
+    background-color: #070617;
+    z-index: -2;
+}
+#footer .footer-logo{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+#footer .footer-logo img{
+    border-radius: 10px;
+    background-color: #8b7959;
+}
+#footer .social{
+    width: 15%;
+    padding: 30px;
+    margin: auto;
+}
+#footer .social .row{
+    justify-content:space-between;
+    align-items: center;
+}
+#footer .social svg{
+    font-size: 25px;
+    color: #8b7959;
+    transition: all .7s ease-in-out;
+}
+#footer .social svg:hover{
+    color: white;
+    transition: all .7s ease-in-out;
+}
+#footer .table{
+    text-align: center;
+    padding: 25px 0;
+}
+#footer .table .p-table a{
+    line-height: 35px;
+    color: #8b7959;
+    font-size: 13px;
+    transition: all .7s ease-in-out;
+}
+#footer .table .p-table a:hover{
+    color: white;
+    transition: all .7s ease-in-out;
+}
+#footer .table h3{
+    color: #978b8c !important;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+#footer .copyright-en{
+    color: #978b8c;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+#footer .copyright-fa{
+    color: #978b8c;
+    text-align: left;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* responsive model */
+@media(max-width:992px){
+    #footer .social{
+        width: 20%;
+    }
+}
+@media(max-width:768px){
+    #footer .social{
+        width: 30%;
+    }
+    #footer .copyright-fa{
+        font-size: 9px;
+    }
+}
+@media(max-width:576px){
+    #footer .copyright-en{
+        text-align: center;
+    }
+    #footer .copyright-fa{
+        text-align: center;
+    }
+    #footer .social{
+        width: 35%;
+    }
+}
